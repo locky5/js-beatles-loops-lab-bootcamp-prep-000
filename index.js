@@ -20,7 +20,7 @@ function johnLennonFacts(arrayFacts) {
 function iLoveTheBeatles(num) {
   var array = []; //creates empty array
   do {
-    array.push("I love the Beatles!") //pushes statement into array initially and multiple times
+    array.push("I love the Beatles!") //pushes statement into array initially and then multiple times
     num++; //increments the number
   } while (num < 15); //checks if number is <15
   return array; //if num = 7, then it should have 8 statements of "I love the Beatles" cuz +1 from initial push
